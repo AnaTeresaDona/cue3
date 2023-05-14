@@ -1,0 +1,125 @@
+$color1: #da09c5;
+
+body{
+    background-color: #FA8BFF;
+    background-image: linear-gradient(180deg, #FA8BFF 0%, #2BD2FF 34%, #2BFF88 60%, #ffffff 100%);
+    ;
+}
+
+
+.header{
+    margin-bottom: 3em;
+    
+
+}
+
+.avatar1{
+    height: 2.5em;
+    border-radius: 50%;
+    &:hover{
+        scale: 120%;
+        box-shadow: #76838f;
+    }
+}
+
+
+.avatar {
+    position: relative;
+    display: inline-block;
+    height: 2em;
+    // width: 40px;
+    white-space: nowrap;
+    // border-radius: 1000px;
+    border-radius: 50%;
+    vertical-align: bottom;
+}
+
+.avatar-msj{
+    height: 5em;
+    margin-left: 2em;
+    border-radius: 50%;
+}
+
+.msjs {
+    padding: 30px 15px
+}
+
+.cuerpo-msj {
+    display: block;
+    margin: 10px 30px 0 0;
+    overflow: hidden
+}
+
+.cuerpo-msj:first-child {
+    margin-top: 0
+}
+
+.contenido-msj {
+    position: relative;
+    display: block;
+    float: right;
+    padding: 8px 15px;
+    margin: 0 20px 10px 0;
+    clear: both;
+    color: #fff;
+    background-color: $color1;
+    border-radius: 4px;
+        -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+}
+
+.contenido-msj:before {
+    position: absolute;
+    top: 10px;
+    right: -10px;
+    width: 0;
+    height: 0;
+    content: '';
+    border: 5px solid transparent;
+    border-left-color: #da09c5;
+}
+
+.contenido-msj>p:last-child {
+    margin-bottom: 0
+}
+
+.contenido-msj+.contenido-msj:before {
+    border-color: transparent
+}
+
+.tiempo-msj {
+    display: block;
+    margin-top: 8px;
+    color: rgba(255, 255, 255, .6)
+}
+
+.msj-izq .chat-avatar {
+    float: left
+}
+
+.msj-izq .cuerpo-msj {
+    margin-right: 0;
+    margin-left: 30px
+}
+
+.msj-izq .contenido-msj {
+    float: left;
+    margin: 0 0 10px 20px;
+    color: #76838f;
+    background-color: #dfe9ef
+}
+
+.msj-izq .contenido-msj:before {
+    right: auto;
+    left: -10px;
+    border-right-color: #dfe9ef;
+    border-left-color: transparent
+}
+
+.msj-izq .contenido-msj+.contenido-msj:before {
+    border-color: transparent
+}
+
+.msj-izq .tiempo-msj {
+    color: #a3afb7
+}
