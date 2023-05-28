@@ -1,10 +1,53 @@
 body {
-  background-color: #FA8BFF;
+  background-color: #595c5f;
+}
+
+.columna-lateral {
+  display: center;
+}
+
+.navbar-brand {
+  font-family: "Moo Lah Lah", cursive;
+  font-size: xx-large;
+}
+
+.offcanvas-backdrop {
+  display: none;
+}
+
+.nombre-barra {
+  color: #da09c5;
+}
+
+.nombreBarraLateral {
+  font-weight: bold;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+}
+
+#menuAdjunto {
+  background-color: #c3d0da;
+}
+#menuAdjunto :hover {
+  background-image: linear-gradient(180deg, #FA8BFF 0%, #2BD2FF 34%, #2BFF88 60%, #ffffff 100%);
+}
+
+#offcanvas {
+  background-color: #c3d0da;
+}
+
+#bg-chat {
   background-image: linear-gradient(180deg, #FA8BFF 0%, #2BD2FF 34%, #2BFF88 60%, #ffffff 100%);
 }
 
 .header {
   margin-bottom: 3em;
+}
+
+#offcanvasLabel {
+  color: #da09c5;
 }
 
 .avatar1 {

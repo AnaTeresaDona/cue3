@@ -1,16 +1,64 @@
 $color1: #da09c5;
+$color2: #2BD2FF;
+$color3: #595c5f;
+$focus-ring-color:#da09c5;
+$font: 'Moo Lah Lah', cursive;
 
 body{
-    background-color: #FA8BFF;
-    background-image: linear-gradient(180deg, #FA8BFF 0%, #2BD2FF 34%, #2BFF88 60%, #ffffff 100%);
+    background-color: $color3;
     ;
 }
+
+.columna-lateral{
+    display:center;
+}
+.navbar-brand{
+    font-family: $font;
+    font-size: xx-large;
+}
+
+.offcanvas-backdrop{
+    display: none;
+}
+
+.nombre-barra{
+    color:$color1;
+}
+
+.nombreBarraLateral{
+    font-weight: bold;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+#menuAdjunto{
+ background-color: #c3d0da;
+ & :hover{
+    background-image: linear-gradient(180deg, #FA8BFF 0%, #2BD2FF 34%, #2BFF88 60%, #ffffff 100%);
+ }
+}
+
+#offcanvas{
+    background-color: #c3d0da;
+}
+
+#bg-chat{
+    background-image: linear-gradient(180deg, #FA8BFF 0%, #2BD2FF 34%, #2BFF88 60%, #ffffff 100%);
+}
+// .nombre-msj :hover{
+//     color:#181616;
+// }
 
 
 .header{
     margin-bottom: 3em;
-    
 
+}
+
+#offcanvasLabel{
+    color:$color1;
 }
 
 .avatar1{

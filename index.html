@@ -6,6 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SISTEMA DE COMUNICACIÓN Y SOPORTE</title>
 
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap');
+          </style>
+
         <script src="https://kit.fontawesome.com/a32b71798e.js" crossorigin="anonymous"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
@@ -16,7 +20,7 @@
         <header class="header">
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="#">La Vaca Loca</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -50,7 +54,7 @@
                     </ul>
                     <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    <button class="btn btn-outline-secondary" type="submit">Buscar</button>
                     </form>
                 </div>
                 </div>
@@ -59,11 +63,11 @@
 
         <div class="container">
             
-        <div class="row">
+        <div class="row" id="bg-chat">
             <!-- ocultar en escritorio -->
-            <div class="offcanvas offcanvas-start show d-md-none d-lg-none" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+            <div class="offcanvas offcanvas-start show d-md-none" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
                 <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasLabel">Offcanvas</h5>
+                  <h5 class="offcanvas-title" id="offcanvasLabel">Últimos mensajes</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
@@ -71,9 +75,9 @@
                 <div>
                     <p>
                         <a  data-bs-toggle="collapse" href="#dominga" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        <div>
+                        <div class="nombreBarraLateral">
                             <img class="rounded-circle avatar1" src="assets/img/perfilDominga.jpg" alt="Dominga">
-                            <span class="nombreBarraLateral ms-3">Dominga</span>
+                            <span class="ms-3 nombre-barra">Dominga</span>
                         </div>
                         </a>
                     </p>
@@ -84,12 +88,12 @@
                     </div>
                 </div>
                 <!-- persona 2 Lany -->
-                <div>
+                <div class="nombreBarraLateral">
                     <p>
                         <a  data-bs-toggle="collapse" href="#lany" role="button" aria-expanded="false" aria-controls="collapseExample">
                         <div>
                             <img class="rounded-circle avatar1" src="assets/img/perfilLany.jpg" height="30px" alt="Lany">
-                            <span class="nombreBarraLateral ms-3">Lany</span>
+                            <span class="nombre-barra ms-3">Lany</span>
                         </div>
                         </a>
                     </p>
@@ -100,12 +104,12 @@
                     </div>
                 </div>
                 <!-- persona 3 Paloma -->
-                <div>
+                <div class="nombreBarraLateral">
                     <p>
                         <a  data-bs-toggle="collapse" href="#paloma" role="button" aria-expanded="false" aria-controls="collapseExample">
                         <div>
                             <img class="rounded-circle avatar1" src="assets/img/perfilPaloma.jpg" height="30px" alt="Paloma">
-                            <span class="nombreBarraLateral ms-3">Paloma</span>
+                            <span class="nombre-barra ms-3">Paloma</span>
                         </div>
                         </a>
                     </p>
@@ -116,12 +120,12 @@
                     </div>
                 </div>
                 <!-- persona 4 Susana-->
-                <div>
+                <div class="nombreBarraLateral">
                     <p>
                         <a  data-bs-toggle="collapse" href="#susana" role="button" aria-expanded="false" aria-controls="collapseExample">
                         <div>
                             <img class="rounded-circle avatar1" src="assets/img/perfilSusana.jpg" height="30px" alt="Susana">
-                            <span class="nombreBarraLateral ms-3">Susana</span>
+                            <span class="nombre-barra ms-3">Susana</span>
                         </div>
                         </a>
                     </p>
@@ -132,12 +136,12 @@
                     </div>
                 </div>
                 <!-- persona 5 -->
-                <div>
+                <div class="nombreBarraLateral">
                     <p>
                         <a  data-bs-toggle="collapse" href="#wes" role="button" aria-expanded="false" aria-controls="collapseExample">
                         <div>
                             <img class="rounded-circle avatar1" src="assets/img/perfilWes.jpg" height="30px" alt="Wes">
-                            <span class="nombreBarraLateral ms-3">Wes</span>
+                            <span class="nombre-barra ms-3">Wes</span>
                         </div>
                         </a>
                     </p>
@@ -148,17 +152,17 @@
                     </div>
                 </div>
                 </div>
-              </div>
+            </div>
             
               <!-- ocultar en dispositivos móviles -->
-            <div class="col-4 bg-dark d-none d-md-block d-lg-block">
+            <div class="col-4 bg-dark d-none d-md-block d-lg-block p-5">
                 <!-- Persona 1 Dominga-->
-                <div>
+                <div class="nombreBarraLateral">
                     <p>
                         <a  data-bs-toggle="collapse" href="#dominga" role="button" aria-expanded="false" aria-controls="collapseExample">
                         <div>
                             <img class="rounded-circle avatar1" src="assets/img/perfilDominga.jpg" alt="Dominga">
-                            <span class="nombreBarraLateral ms-3">Dominga</span>
+                            <span class="nombre-barra ms-3">Dominga</span>
                         </div>
                         </a>
                     </p>
@@ -169,12 +173,12 @@
                     </div>
                 </div>
                 <!-- persona 2 Lany -->
-                <div>
+                <div class="nombreBarraLateral">
                     <p>
                         <a  data-bs-toggle="collapse" href="#lany" role="button" aria-expanded="false" aria-controls="collapseExample">
                         <div>
                             <img class="rounded-circle avatar1" src="assets/img/perfilLany.jpg" height="30px" alt="Lany">
-                            <span class="nombreBarraLateral ms-3">Lany</span>
+                            <span class="nombre-barra ms-3">Lany</span>
                         </div>
                         </a>
                     </p>
@@ -185,12 +189,12 @@
                     </div>
                 </div>
                 <!-- persona 3 Paloma -->
-                <div>
+                <div class="nombreBarraLateral">
                     <p>
                         <a  data-bs-toggle="collapse" href="#paloma" role="button" aria-expanded="false" aria-controls="collapseExample">
                         <div>
                             <img class="rounded-circle avatar1" src="assets/img/perfilPaloma.jpg" height="30px" alt="Paloma">
-                            <span class="nombreBarraLateral ms-3">Paloma</span>
+                            <span class="nombre-barra ms-3">Paloma</span>
                         </div>
                         </a>
                     </p>
@@ -201,12 +205,12 @@
                     </div>
                 </div>
                 <!-- persona 4 Susana-->
-                <div>
+                <div class="nombreBarraLateral">
                     <p>
                         <a  data-bs-toggle="collapse" href="#susana" role="button" aria-expanded="false" aria-controls="collapseExample">
                         <div>
                             <img class="rounded-circle avatar1" src="assets/img/perfilSusana.jpg" height="30px" alt="Susana">
-                            <span class="nombreBarraLateral ms-3">Susana</span>
+                            <span class="nombre-barra ms-3">Susana</span>
                         </div>
                         </a>
                     </p>
@@ -217,12 +221,12 @@
                     </div>
                 </div>
                 <!-- persona 5 -->
-                <div>
+                <div class="nombreBarraLateral">
                     <p>
                         <a  data-bs-toggle="collapse" href="#wes" role="button" aria-expanded="false" aria-controls="collapseExample">
                         <div>
                             <img class="rounded-circle avatar1" src="assets/img/perfilWes.jpg" height="30px" alt="Wes">
-                            <span class="nombreBarraLateral ms-3">Wes</span>
+                            <span class="nombre-barra ms-3">Wes</span>
                         </div>
                         </a>
                     </p>
@@ -233,7 +237,7 @@
                     </div>
                 </div>            
             </div>
-            <div class="col">
+            <div class="col mt-5">
                 <div class="row mb-3">
                     <div class="col">
                         <img src="assets/img/perfilDominga.jpg" class="avatar-msj d-inline">
@@ -246,7 +250,7 @@
                             <h3 class="dropdown-toggle" type="text" data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="fa-solid fa-paperclip"></i>
                             </h3>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu" id="menuAdjunto">
                                 <li><a class="dropdown-item" href="#"><i class="fa-solid fa-video fa-lg"></i></a></li>
                                 <li><a class="dropdown-item" href="#"><i class="fa-solid fa-file fa-lg"></i></a></li>
                                 <li><a class="dropdown-item" href="#"><i class="fa-solid fa-image fa-lg"></i></a></li>
@@ -259,7 +263,7 @@
                 <div class="col">
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        <button class="btn btn-outline-secondary" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                     </form>  
                 </div>
 
