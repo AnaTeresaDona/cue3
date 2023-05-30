@@ -63,264 +63,263 @@
 
         <div class="container">
             
-        <div class="row" id="bg-chat">
-            <!-- ocultar en escritorio -->
-            <div class="offcanvas offcanvas-start show d-md-none" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasLabel">Últimos mensajes</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                <!-- Persona 1 Dominga-->
-                <div>
-                    <p>
-                        <a  data-bs-toggle="collapse" href="#dominga" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        <div class="nombreBarraLateral">
-                            <img class="rounded-circle avatar1" src="assets/img/perfilDominga.jpg" alt="Dominga">
-                            <span class="ms-3 nombre-barra">Dominga</span>
+            <div class="row" id="bg-chat">
+                <!-- ocultar en escritorio -->
+                <div class="offcanvas offcanvas-start show d-md-none" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+                    <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasLabel">Últimos mensajes</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                    <!-- Persona 1 Dominga-->
+                    <div>
+                        <p>
+                            <a  data-bs-toggle="collapse" href="#dominga" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <div class="nombreBarraLateral">
+                                <img class="rounded-circle avatar1" src="assets/img/perfilDominga.jpg" alt="Dominga">
+                                <span class="ms-3 nombre-barra">Dominga</span>
+                            </div>
+                            </a>
+                        </p>
+                        <div class="collapse" id="dominga">
+                            <div class="card card-body">
+                            Hola! este es mi último mensaje...
+                            </div>
                         </div>
-                        </a>
-                    </p>
-                    <div class="collapse" id="dominga">
-                        <div class="card card-body">
-                        Hola! este es mi último mensaje...
+                    </div>
+                    <!-- persona 2 Lany -->
+                    <div class="nombreBarraLateral">
+                        <p>
+                            <a  data-bs-toggle="collapse" href="#lany" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <div>
+                                <img class="rounded-circle avatar1" src="assets/img/perfilLany.jpg" height="30px" alt="Lany">
+                                <span class="nombre-barra ms-3">Lany</span>
+                            </div>
+                            </a>
+                        </p>
+                        <div class="collapse" id="lany">
+                            <div class="card card-body">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae corrupti provident aliquid ea rerum autem reiciendis iusto, culpa a quibusdam reprehenderit beatae voluptate tenetur nam asperiores blanditiis obcaecati? Est, alias.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- persona 3 Paloma -->
+                    <div class="nombreBarraLateral">
+                        <p>
+                            <a  data-bs-toggle="collapse" href="#paloma" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <div>
+                                <img class="rounded-circle avatar1" src="assets/img/perfilPaloma.jpg" height="30px" alt="Paloma">
+                                <span class="nombre-barra ms-3">Paloma</span>
+                            </div>
+                            </a>
+                        </p>
+                        <div class="collapse" id="paloma">
+                            <div class="card card-body">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae corrupti provident aliquid ea rerum autem reiciendis iusto, culpa a quibusdam reprehenderit beatae voluptate tenetur nam asperiores blanditiis obcaecati? Est, alias.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- persona 4 Susana-->
+                    <div class="nombreBarraLateral">
+                        <p>
+                            <a  data-bs-toggle="collapse" href="#susana" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <div>
+                                <img class="rounded-circle avatar1" src="assets/img/perfilSusana.jpg" height="30px" alt="Susana">
+                                <span class="nombre-barra ms-3">Susana</span>
+                            </div>
+                            </a>
+                        </p>
+                        <div class="collapse" id="susana">
+                            <div class="card card-body">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae corrupti provident aliquid ea rerum autem reiciendis iusto, culpa a quibusdam reprehenderit beatae voluptate tenetur nam asperiores blanditiis obcaecati? Est, alias.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- persona 5 -->
+                    <div class="nombreBarraLateral">
+                        <p>
+                            <a  data-bs-toggle="collapse" href="#wes" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <div>
+                                <img class="rounded-circle avatar1" src="assets/img/perfilWes.jpg" height="30px" alt="Wes">
+                                <span class="nombre-barra ms-3">Wes</span>
+                            </div>
+                            </a>
+                        </p>
+                        <div class="collapse" id="wes">
+                            <div class="card card-body">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae corrupti provident aliquid ea rerum autem reiciendis iusto, culpa a quibusdam reprehenderit beatae voluptate tenetur nam asperiores blanditiis obcaecati? Est, alias.
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                
+                <!-- ocultar en dispositivos móviles -->
+                <div class="col-4 bg-dark d-none d-md-block d-lg-block p-5">
+                    <!-- Persona 1 Dominga-->
+                    <div class="nombreBarraLateral">
+                        <p>
+                            <a  data-bs-toggle="collapse" href="#dominga" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <div>
+                                <img class="rounded-circle avatar1" src="assets/img/perfilDominga.jpg" alt="Dominga">
+                                <span class="nombre-barra ms-3">Dominga</span>
+                            </div>
+                            </a>
+                        </p>
+                        <div class="collapse" id="dominga">
+                            <div class="card card-body">
+                            Hola! este es mi último mensaje...
+                            </div>
+                        </div>
+                    </div>
+                    <!-- persona 2 Lany -->
+                    <div class="nombreBarraLateral">
+                        <p>
+                            <a  data-bs-toggle="collapse" href="#lany" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <div>
+                                <img class="rounded-circle avatar1" src="assets/img/perfilLany.jpg" height="30px" alt="Lany">
+                                <span class="nombre-barra ms-3">Lany</span>
+                            </div>
+                            </a>
+                        </p>
+                        <div class="collapse" id="lany">
+                            <div class="card card-body">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae corrupti provident aliquid ea rerum autem reiciendis iusto, culpa a quibusdam reprehenderit beatae voluptate tenetur nam asperiores blanditiis obcaecati? Est, alias.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- persona 3 Paloma -->
+                    <div class="nombreBarraLateral">
+                        <p>
+                            <a  data-bs-toggle="collapse" href="#paloma" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <div>
+                                <img class="rounded-circle avatar1" src="assets/img/perfilPaloma.jpg" height="30px" alt="Paloma">
+                                <span class="nombre-barra ms-3">Paloma</span>
+                            </div>
+                            </a>
+                        </p>
+                        <div class="collapse" id="paloma">
+                            <div class="card card-body">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae corrupti provident aliquid ea rerum autem reiciendis iusto, culpa a quibusdam reprehenderit beatae voluptate tenetur nam asperiores blanditiis obcaecati? Est, alias.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- persona 4 Susana-->
+                    <div class="nombreBarraLateral">
+                        <p>
+                            <a  data-bs-toggle="collapse" href="#susana" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <div>
+                                <img class="rounded-circle avatar1" src="assets/img/perfilSusana.jpg" height="30px" alt="Susana">
+                                <span class="nombre-barra ms-3">Susana</span>
+                            </div>
+                            </a>
+                        </p>
+                        <div class="collapse" id="susana">
+                            <div class="card card-body">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae corrupti provident aliquid ea rerum autem reiciendis iusto, culpa a quibusdam reprehenderit beatae voluptate tenetur nam asperiores blanditiis obcaecati? Est, alias.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- persona 5 -->
+                    <div class="nombreBarraLateral">
+                        <p>
+                            <a  data-bs-toggle="collapse" href="#wes" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <div>
+                                <img class="rounded-circle avatar1" src="assets/img/perfilWes.jpg" height="30px" alt="Wes">
+                                <span class="nombre-barra ms-3">Wes</span>
+                            </div>
+                            </a>
+                        </p>
+                        <div class="collapse" id="wes">
+                            <div class="card card-body">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae corrupti provident aliquid ea rerum autem reiciendis iusto, culpa a quibusdam reprehenderit beatae voluptate tenetur nam asperiores blanditiis obcaecati? Est, alias.
+                            </div>
+                        </div>
+                    </div>            
+                </div>
+                <div class="col mt-5">
+                    <div class="row mb-3">
+                        <div class="col">
+                            <img src="assets/img/perfilDominga.jpg" class="avatar-msj d-inline">
+                        </div>
+                        <div class="col">
+                            <h1 class="nombre-msj d-inline">Dominga</h1>
+                        </div>
+                        <div class="col">        
+                            <div class="dropdown attachment-msj">
+                                <h3 class="dropdown-toggle" type="text" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-paperclip"></i>
+                                </h3>
+                                <ul class="dropdown-menu" id="menuAdjunto">
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-video fa-lg"></i></a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-file fa-lg"></i></a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-image fa-lg"></i></a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-music fa-lg"></i></a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="btn btn-outline-secondary" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>  
+                    </div>
+
+                    <div>
+                        <div class="cuerpo-msj">
+                                    <div class="msjs">
+                                    <div class="msj">
+                                        <div class="cuerpo-msj">
+                                        <div class="contenido-msj">
+                                            <p>
+                                            Hola, cómo va todo?
+                                            <br>Ganas de salir?
+                                            </p>
+                                            <time class="tiempo-msj">11:37:08 am</time>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="msj msj-izq">
+                                        <div class="cuerpo-msj">
+                                        <div class="contenido-msj">
+                                            <p>No sé, yo, ahí no ma</p>
+                                            <time class="tiempo-msj">11:39:57 am</time>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="msj">
+                                        <div class="cuerpo-msj">
+                                        <div class="contenido-msj">
+                                            <p>
+                                            Dale, sigue así
+                                            </p>
+                                            <time class="tiempo-msj">11:40:10 am</time>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="msj msj-izq">
+                                        <div class="cuerpo-msj">
+                                        <div class="contenido-msj">
+                                            <p>obvio, si de ahí somos</p>
+                                            <time class="tiempo-msj">11:39:57 am</time>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                        </div>                              
+
+                        <div class="form-group mt-3 mb-0">
+                            <textarea class="form-control" rows="3" placeholder="Escribe aquí tu mensaje..."></textarea>
+                                        
                         </div>
                     </div>
                 </div>
-                <!-- persona 2 Lany -->
-                <div class="nombreBarraLateral">
-                    <p>
-                        <a  data-bs-toggle="collapse" href="#lany" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        <div>
-                            <img class="rounded-circle avatar1" src="assets/img/perfilLany.jpg" height="30px" alt="Lany">
-                            <span class="nombre-barra ms-3">Lany</span>
-                        </div>
-                        </a>
-                    </p>
-                    <div class="collapse" id="lany">
-                        <div class="card card-body">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae corrupti provident aliquid ea rerum autem reiciendis iusto, culpa a quibusdam reprehenderit beatae voluptate tenetur nam asperiores blanditiis obcaecati? Est, alias.
-                        </div>
-                    </div>
-                </div>
-                <!-- persona 3 Paloma -->
-                <div class="nombreBarraLateral">
-                    <p>
-                        <a  data-bs-toggle="collapse" href="#paloma" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        <div>
-                            <img class="rounded-circle avatar1" src="assets/img/perfilPaloma.jpg" height="30px" alt="Paloma">
-                            <span class="nombre-barra ms-3">Paloma</span>
-                        </div>
-                        </a>
-                    </p>
-                    <div class="collapse" id="paloma">
-                        <div class="card card-body">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae corrupti provident aliquid ea rerum autem reiciendis iusto, culpa a quibusdam reprehenderit beatae voluptate tenetur nam asperiores blanditiis obcaecati? Est, alias.
-                        </div>
-                    </div>
-                </div>
-                <!-- persona 4 Susana-->
-                <div class="nombreBarraLateral">
-                    <p>
-                        <a  data-bs-toggle="collapse" href="#susana" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        <div>
-                            <img class="rounded-circle avatar1" src="assets/img/perfilSusana.jpg" height="30px" alt="Susana">
-                            <span class="nombre-barra ms-3">Susana</span>
-                        </div>
-                        </a>
-                    </p>
-                    <div class="collapse" id="susana">
-                        <div class="card card-body">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae corrupti provident aliquid ea rerum autem reiciendis iusto, culpa a quibusdam reprehenderit beatae voluptate tenetur nam asperiores blanditiis obcaecati? Est, alias.
-                        </div>
-                    </div>
-                </div>
-                <!-- persona 5 -->
-                <div class="nombreBarraLateral">
-                    <p>
-                        <a  data-bs-toggle="collapse" href="#wes" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        <div>
-                            <img class="rounded-circle avatar1" src="assets/img/perfilWes.jpg" height="30px" alt="Wes">
-                            <span class="nombre-barra ms-3">Wes</span>
-                        </div>
-                        </a>
-                    </p>
-                    <div class="collapse" id="wes">
-                        <div class="card card-body">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae corrupti provident aliquid ea rerum autem reiciendis iusto, culpa a quibusdam reprehenderit beatae voluptate tenetur nam asperiores blanditiis obcaecati? Est, alias.
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </div>
             
-              <!-- ocultar en dispositivos móviles -->
-            <div class="col-4 bg-dark d-none d-md-block d-lg-block p-5">
-                <!-- Persona 1 Dominga-->
-                <div class="nombreBarraLateral">
-                    <p>
-                        <a  data-bs-toggle="collapse" href="#dominga" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        <div>
-                            <img class="rounded-circle avatar1" src="assets/img/perfilDominga.jpg" alt="Dominga">
-                            <span class="nombre-barra ms-3">Dominga</span>
-                        </div>
-                        </a>
-                    </p>
-                    <div class="collapse" id="dominga">
-                        <div class="card card-body">
-                        Hola! este es mi último mensaje...
-                        </div>
-                    </div>
-                </div>
-                <!-- persona 2 Lany -->
-                <div class="nombreBarraLateral">
-                    <p>
-                        <a  data-bs-toggle="collapse" href="#lany" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        <div>
-                            <img class="rounded-circle avatar1" src="assets/img/perfilLany.jpg" height="30px" alt="Lany">
-                            <span class="nombre-barra ms-3">Lany</span>
-                        </div>
-                        </a>
-                    </p>
-                    <div class="collapse" id="lany">
-                        <div class="card card-body">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae corrupti provident aliquid ea rerum autem reiciendis iusto, culpa a quibusdam reprehenderit beatae voluptate tenetur nam asperiores blanditiis obcaecati? Est, alias.
-                        </div>
-                    </div>
-                </div>
-                <!-- persona 3 Paloma -->
-                <div class="nombreBarraLateral">
-                    <p>
-                        <a  data-bs-toggle="collapse" href="#paloma" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        <div>
-                            <img class="rounded-circle avatar1" src="assets/img/perfilPaloma.jpg" height="30px" alt="Paloma">
-                            <span class="nombre-barra ms-3">Paloma</span>
-                        </div>
-                        </a>
-                    </p>
-                    <div class="collapse" id="paloma">
-                        <div class="card card-body">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae corrupti provident aliquid ea rerum autem reiciendis iusto, culpa a quibusdam reprehenderit beatae voluptate tenetur nam asperiores blanditiis obcaecati? Est, alias.
-                        </div>
-                    </div>
-                </div>
-                <!-- persona 4 Susana-->
-                <div class="nombreBarraLateral">
-                    <p>
-                        <a  data-bs-toggle="collapse" href="#susana" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        <div>
-                            <img class="rounded-circle avatar1" src="assets/img/perfilSusana.jpg" height="30px" alt="Susana">
-                            <span class="nombre-barra ms-3">Susana</span>
-                        </div>
-                        </a>
-                    </p>
-                    <div class="collapse" id="susana">
-                        <div class="card card-body">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae corrupti provident aliquid ea rerum autem reiciendis iusto, culpa a quibusdam reprehenderit beatae voluptate tenetur nam asperiores blanditiis obcaecati? Est, alias.
-                        </div>
-                    </div>
-                </div>
-                <!-- persona 5 -->
-                <div class="nombreBarraLateral">
-                    <p>
-                        <a  data-bs-toggle="collapse" href="#wes" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        <div>
-                            <img class="rounded-circle avatar1" src="assets/img/perfilWes.jpg" height="30px" alt="Wes">
-                            <span class="nombre-barra ms-3">Wes</span>
-                        </div>
-                        </a>
-                    </p>
-                    <div class="collapse" id="wes">
-                        <div class="card card-body">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae corrupti provident aliquid ea rerum autem reiciendis iusto, culpa a quibusdam reprehenderit beatae voluptate tenetur nam asperiores blanditiis obcaecati? Est, alias.
-                        </div>
-                    </div>
-                </div>            
+            
             </div>
-            <div class="col mt-5">
-                <div class="row mb-3">
-                    <div class="col">
-                        <img src="assets/img/perfilDominga.jpg" class="avatar-msj d-inline">
-                    </div>
-                    <div class="col">
-                        <h1 class="nombre-msj d-inline">Dominga</h1>
-                    </div>
-                    <div class="col">        
-                        <div class="dropdown attachment-msj">
-                            <h3 class="dropdown-toggle" type="text" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="fa-solid fa-paperclip"></i>
-                            </h3>
-                            <ul class="dropdown-menu" id="menuAdjunto">
-                                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-video fa-lg"></i></a></li>
-                                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-file fa-lg"></i></a></li>
-                                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-image fa-lg"></i></a></li>
-                                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-music fa-lg"></i></a></li>
-                            </ul>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col">
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                        <button class="btn btn-outline-secondary" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                    </form>  
-                </div>
-
-                <div>
-                    <div class="cuerpo-msj">
-                                <div class="msjs">
-                                <div class="msj">
-                                    <div class="cuerpo-msj">
-                                    <div class="contenido-msj">
-                                        <p>
-                                        Hola, cómo va todo?
-                                        <br>Ganas de salir?
-                                        </p>
-                                        <time class="tiempo-msj">11:37:08 am</time>
-                                    </div>
-                                    </div>
-                                </div>
-                                <div class="msj msj-izq">
-                                    <div class="cuerpo-msj">
-                                    <div class="contenido-msj">
-                                        <p>No sé, yo, ahí no ma</p>
-                                        <time class="tiempo-msj">11:39:57 am</time>
-                                    </div>
-                                    </div>
-                                </div>
-                                <div class="msj">
-                                    <div class="cuerpo-msj">
-                                    <div class="contenido-msj">
-                                        <p>
-                                        Dale, sigue así
-                                        </p>
-                                        <time class="tiempo-msj">11:40:10 am</time>
-                                    </div>
-                                    </div>
-                                </div>
-                                <div class="msj msj-izq">
-                                    <div class="cuerpo-msj">
-                                    <div class="contenido-msj">
-                                        <p>obvio, si de ahí somos</p>
-                                        <time class="tiempo-msj">11:39:57 am</time>
-                                    </div>
-                                    </div>
-                                </div>
-                                </div>
-                    </div>                              
-
-                    <div class="form-group mt-3 mb-0">
-                        <textarea class="form-control" rows="3" placeholder="Escribe aquí tu mensaje..."></textarea>
-                                    
-                    </div>
-                </div>
-            </div>
-        
-        
         </div>
-
-
 
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
